@@ -120,7 +120,7 @@ function getByName(event) {
 function createCard(name, price, discount, id, category, url) {
     var productCard = document.createElement("div");
     productCard.className = "card";
-    productCard.setAttribute("style", "width: 18rem; margin:1rem");
+    productCard.setAttribute("style", "width: 18rem; margin-left:auto; margin-right: auto; margin-top: 1rem;");
 
     var img = document.createElement("img");
     img.className = "card-img-top p-4";
